@@ -1,0 +1,15 @@
+<style>
+  body {
+    background-color: black;
+    color:
+  }
+  .profile {
+    --picture-frame: white;
+    position: static;
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 300px;
+    height: 300px;
+  }
+</style>
