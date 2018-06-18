@@ -1,7 +1,11 @@
 <style>
   body {
-    background-color: black;
-    color:
+    background: black;
+    color: white;
+  }
+  h1 {
+    text-shadow: 0 6px 6px rgba(0,0,0,0.23);
+    font-weight: 300;
   }
   .profile {
     --picture-frame: white;
@@ -11,5 +15,11 @@
     margin-left: 5%;
     width: 300px;
     height: 300px;
+  }
+  a {
+  color: white;
+  }
+  a:hover {
+color: blue;
   }
 </style>
