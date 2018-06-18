@@ -1,25 +1,32 @@
 <style>
   body {
-    background: black;
+    background-color: black;
     color: white;
   }
   h1 {
     text-shadow: 0 6px 6px rgba(0,0,0,0.23);
     font-weight: 300;
+    color: white
   }
-  .profile {
-    --picture-frame: white;
+  .Image {
     position: static;
     margin: auto;
     margin-top: 5%;
     margin-left: 5%;
     width: 300px;
     height: 300px;
+    border-color: gray;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
   }
   a {
-  color: white;
+    color: white;
   }
   a:hover {
-color: blue;
+    color: blue;
+  }
+  a:visited {
+    color: gray;
   }
 </style>
