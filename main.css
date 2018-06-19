@@ -1,14 +1,7 @@
 <style>
-  body {
-    background-color: black;
-  }
-  p {
-    color: white;
-  }
   h1 {
     text-shadow: 0 6px 6px rgba(0,0,0,0.23);
     font-weight: 300;
-    color: white
   }
   h2 {
     text-decoration: underline;
@@ -37,13 +30,10 @@
     border-style: solid;
     border-radius: 50%;
   }
-  a {
-    color: white;
-  }
   a:hover {
     color: blue;
   }
   a:visited {
-    color: gray;
+    color: yellow;
   }
 </style>
