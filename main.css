@@ -33,13 +33,13 @@
     border-radius: 50%;
   }
   header {
-    background-color: linear-gradient(35deg, #797E83, #BCC7D1);
+    background: linear-gradient(35deg, #797E83, #BCC7D1);
     color: hsl(0, 0%, 86%);
     box-shadow: 4px 8px 7px #888888;
   }
 
   nav {
-  background-color: hsl(0, 0%, 50%);
+    background-color: hsl(0, 0%, 50%);
   }
 
   #headerName {
