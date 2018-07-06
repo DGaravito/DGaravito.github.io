@@ -1,64 +1,62 @@
-<style>
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
-  h1 {
-    text-shadow: 3px 3px 4px rgba(0,0,0,0.63);
-    font-weight: 300;
-    font-family: Roboto, Georgia;
-  }
-  h2 {
-    text-decoration: underline;
-    font-family: Roboto, Georgia;
-  }
-  body {
-    font-family: Roboto, Georgia;
-    background: linear-gradient(35deg, #646E77, #9FACB8);
-  }
-  .ProfileImage {
-    position: static;
-    margin: auto;
-    margin-top: 5%;
-    margin-left: 5%;
-    width: 300px;
-    height: 300px;
-    border-color: black;
-    border-width: 4px;
-    border-style: outset;
-    border-radius: 50%;
-  }
-  .Image {
-    position: static;
-    margin: auto;
-    margin-left: 5%;
-    width: 50px;
-    height: 50px;
-    border-color: black;
-    border-width: 2px;
-    border-style: outset;
-    border-radius: 50%;
-  }
-  header {
-    background: linear-gradient(35deg, #797E83, #BCC7D1);
-    color: hsl(0, 0%, 86%);
-    box-shadow: 4px 8px 7px #888888;
-    font-family: Roboto, Georgia;
-  }
-  nav {
-    background-color: hsl(0, 0%, 50%);
-  }
-  #headerName {
-    text-indent: 10px;
-    padding-top: 10px;
-  }
-  nav ul {
-    margin: 0px;
-    padding: 5px 0px 5px 30px;
-  }
-  nav li {
-    display: inline;
-    margin-right: 20px;
-  }
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-</style>
+@import url=('https://fonts.googleapis.com/css?family=Roboto');
+h1 {
+  text-shadow: 3px 3px 4px rgba(0,0,0,0.63);
+  font-weight: 300;
+  font-family: Roboto, Georgia;
+}
+h2 {
+  text-decoration: underline;
+  font-family: Roboto, Georgia;
+}
+body {
+  font-family: Roboto, Georgia;
+  background: linear-gradient(35deg, #646E77, #9FACB8);
+}
+.ProfileImage {
+  position: static;
+  margin: auto;
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 300px;
+  height: 300px;
+  border-color: black;
+  border-width: 4px;
+  border-style: outset;
+  border-radius: 50%;
+}
+.Image {
+  position: static;
+  margin: auto;
+  margin-left: 5%;
+  width: 50px;
+  height: 50px;
+  border-color: black;
+  border-width: 2px;
+  border-style: outset;
+  border-radius: 50%;
+}
+header {
+  background: linear-gradient(35deg, #797E83, #BCC7D1);
+  color: hsl(0, 0%, 86%);
+  box-shadow: 4px 8px 7px #888888;
+  font-family: Roboto, Georgia;
+}
+nav {
+  background-color: hsl(0, 0%, 50%);
+}
+#headerName {
+  text-indent: 10px;
+  padding-top: 10px;
+}
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
