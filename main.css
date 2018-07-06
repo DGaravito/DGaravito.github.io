@@ -24,7 +24,7 @@ body {
   border-style: outset;
   border-radius: 50%;
 }
-.Image {
+.Links {
   position: static;
   margin: auto;
   margin-left: 5%;
@@ -33,6 +33,17 @@ body {
   border-color: black;
   border-width: 2px;
   border-style: outset;
+  border-radius: 50%;
+}
+.PermLinks {
+  position: static;
+  margin: auto;
+  margin-left: 5%;
+  width: 10px;
+  height: 10px;
+  border-color: black;
+  border-width: 1px;
+  border-style: inset;
   border-radius: 50%;
 }
 header {
