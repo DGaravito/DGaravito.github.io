@@ -38,9 +38,9 @@ body {
 .PermLinks {
   position: static;
   margin: auto;
-  margin-left: 5%;
-  width: 10px;
-  height: 10px;
+  margin-left: 10%;
+  width: 20px;
+  height: 20px;
   border-color: black;
   border-width: 1px;
   border-style: inset;
