@@ -1,27 +1,28 @@
-@import url=('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 h1 {
   text-shadow: 3px 3px 4px rgba(0,0,0,0.63);
   font-weight: 300;
-  font-family: Roboto, Georgia;
+  font-family: 'Montserrat', sans-serif;
 }
 h2 {
   text-decoration: underline;
-  font-family: Roboto, Georgia;
+  font-family: 'Montserrat', sans-serif;
 }
 body {
-  font-family: Roboto, Georgia;
+  font-family: 'Montserrat', sans-serif;
   background: linear-gradient(35deg, #646E77, #9FACB8);
 }
 .ProfileImage {
   position: static;
   margin: auto;
   margin-top: 5%;
-  margin-left: 5%;
+  margin-left: 7%;
+  margin-bottom: 5%;
   width: 250px;
   height: 250px;
   border-color: black;
   border-width: 4px;
-  border-style: outset;
+  border-style: solid;
   border-radius: 50%;
 }
 .Links {
@@ -32,7 +33,7 @@ body {
   height: 50px;
   border-color: black;
   border-width: 2px;
-  border-style: outset;
+  border-style: solid;
   border-radius: 50%;
 }
 .PermLinks {
@@ -43,14 +44,14 @@ body {
   height: 20px;
   border-color: black;
   border-width: 1px;
-  border-style: inset;
+  border-style: solid;
   border-radius: 50%;
 }
 header {
   background: linear-gradient(35deg, #797E83, #BCC7D1);
   color: hsl(0, 0%, 86%);
   box-shadow: 4px 8px 7px #888888;
-  font-family: Roboto, Georgia;
+  font-family: 'Montserrat', sans-serif;
 }
 nav {
   background-color: hsl(0, 0%, 50%);
@@ -70,4 +71,24 @@ nav li {
 a {
   text-decoration: none;
   color: inherit;
+}
+.MPList {
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.Media {
+  color: hsl(233, 72%, 37%);
+}
+.Media:hover {
+  color: hsl(50, 72%, 49%);
+}
+.Media:active {
+  color: Black;
+}
+ul,ol,p {
+  font-size: 1.5rem;
+}
+li,p {
+  line-height: 1.5;
 }
