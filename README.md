@@ -1,2 +1,3 @@
 # DGaravito.github.io
-GitHub Page for David M. N. Garavito, M.A.
+Repository for my personal GitHub page: [dgaravito.github.io/].
+Built using [http://jpswalsh.github.io/academicons/] (Academicons), [http://fontawesome.io/] (FontAwesome), and free time.
