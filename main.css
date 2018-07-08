@@ -14,10 +14,7 @@ body {
 }
 .ProfileImage {
   position: static;
-  margin: auto;
-  margin-top: 5%;
-  margin-left: 7%;
-  margin-bottom: 5%;
+  margin: 5%, 5%, 5%, 5%;
   width: 250px;
   height: 250px;
   border-color: black;
@@ -92,4 +89,7 @@ ul,ol,p {
 }
 li,p {
   line-height: 1.5;
+}
+.Description {
+  font-size: .75rem
 }
