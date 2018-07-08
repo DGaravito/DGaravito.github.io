@@ -53,7 +53,7 @@ li,p {
   margin-bottom: 5%;
 }
 /* ===========================
-Links and Pictures
+Links, Pictures, and Media
 ============================ */
 a.google:hover {
     color:#4885ED
@@ -64,7 +64,7 @@ a.orcid:hover {
 a.resgate:hover {
     color:#00CCBB
 }
-.MPList {
+.MediaList {
   margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -90,10 +90,6 @@ a.resgate:hover {
   border-radius: 50%;
   float: left;
 }
-#CornellLink {
-  width: 50px;
-  height: 50px;
-}
 .Links {
   position: static;
   margin: auto;
@@ -103,4 +99,31 @@ a.resgate:hover {
   position: static;
   margin: auto;
   margin-left: 10%;
+}
+/* ===================================
+Publications Page
+==================================== */
+.pub-content {
+    padding:60px 0 60px;
+}
+.pub-content {
+    background:transparent;
+    position:relative;
+    margin-left:60px;
+    padding:40px 60px 0px 0px;
+}
+.pub-content h4 {
+    margin-bottom: 10px;
+}
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+.table > tbody > tr > td {
+    font-size: 16px;
+    vertical-align: middle;
 }
