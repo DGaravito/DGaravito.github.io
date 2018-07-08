@@ -16,10 +16,8 @@ body {
   position: static;
   margin: auto;
   margin-left: 5%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  width: 250px;
-  height: 250px;
+  width: 225px;
+  height: 225px;
   border-color: black;
   border-width: 4px;
   border-style: solid;
@@ -97,4 +95,5 @@ li,p {
   font-size: 1rem;
   margin-top: 5%;
   margin-bottom: 5%;
+  padding-left: 2%
 }
