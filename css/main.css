@@ -59,7 +59,6 @@ Text - Footer
 }
 .copy-left {
     display: inline-block;
-    text-align: right;
     margin: 0px;
     filter: FlipH;
     -ms-filter: “FlipH”;
@@ -124,6 +123,7 @@ a.cornell:hover {
   margin-left: 5%;
 }
 .PermLinks {
+  position: static;
   margin: auto;
   margin-left: 3%;
   margin-right: 3%;
