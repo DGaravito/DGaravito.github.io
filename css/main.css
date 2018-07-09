@@ -56,6 +56,22 @@ Text - Footer
 ============================ */
 .text-center {
   text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.copy-left {
+    display: inline-block;
+    text-align: right;
+    margin: 0px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: “FlipH”; }
 }
 /* ===========================
 Links, Pictures, and Media
@@ -91,6 +107,7 @@ a.resgate:hover {
   position: static;
   margin: auto;
   margin-left: 5%;
+  margin-right: 2%;
   width: 225px;
   height: 225px;
   border-color: black;
