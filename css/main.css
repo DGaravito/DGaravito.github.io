@@ -55,14 +55,13 @@ nav li {
   margin-right: 20px;
 }
 li.NavButton {
-    animation-name: zoom;
-    animation-duration: 1s;
+    animation-name: HighL;
+    animation-duration: 500ms;
     animation-fill-mode:forwards;
-    animation-timing-function: ease-out;
   }
-  @keyframes zoom {
+  @keyframes HighL {
     100% {
-      transform: scale(1.5);
+      color: #FFF;
     }
   }
 /* ===========================
@@ -134,7 +133,7 @@ a.cornell:hover {
 .Links {
   position: static;
   margin: auto;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 .PermLinks {
   position: static;
