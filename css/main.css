@@ -27,6 +27,9 @@ li,p {
   margin-top: 5%;
   margin-bottom: 5%;
 }
+.Names {
+  margin-left: 5%;
+}
 /* ===========================
 Text - Header and Nav Bar
 ============================ */
@@ -51,6 +54,17 @@ nav li {
   display: inline;
   margin-right: 20px;
 }
+li.NavButton {
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+    animation-timing-function: ease-out;
+  }
+  @keyframes zoom {
+    100% {
+      transform: scale(1.5);
+    }
+  }
 /* ===========================
 Text - Footer
 ============================ */
