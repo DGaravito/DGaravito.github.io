@@ -65,13 +65,15 @@ li.NavButton:hover {
   }
 }
 li.NavButton {
+  opacity: 0%
   animation-name: LightUp;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-fill-mode:forwards;
 }
 @keyframes LightUp {
   100% {
     color: #FFF;
+    opacity: 100%;
   }
 }
 /* ===========================
@@ -138,6 +140,7 @@ a.cornell:hover {
   margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
+  font-size: 1em;
 }
 .Media {
   color: hsl(233, 72%, 37%);
