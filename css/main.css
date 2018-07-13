@@ -54,14 +54,15 @@ nav li {
   display: inline;
   margin-right: 20px;
 }
-li.NavButton {
-    animation-name: HighL;
+li.NavButton:hover {
+    animation-name: HighZoom;
     animation-duration: 500ms;
     animation-fill-mode:forwards;
   }
-  @keyframes HighL {
+  @keyframes HighZoom {
     100% {
-      color: #FFF;
+      color: #B31B1B;
+      transform: scale(1.5);
     }
   }
 /* ===========================
@@ -98,7 +99,7 @@ a.resgate:hover {
     color:#00CCBB;
 }
 a.cornell {
-    color:#B72B34;
+    color:#B31B1B;
 }
 a.cornell:hover {
     color:#FFF;
