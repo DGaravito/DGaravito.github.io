@@ -55,16 +55,25 @@ nav li {
   margin-right: 20px;
 }
 li.NavButton:hover {
-    animation-name: HighZoom;
-    animation-duration: 500ms;
-    animation-fill-mode:forwards;
+  animation-name: HighNav;
+  animation-duration: 500ms;
+  animation-fill-mode:forwards;
+}
+@keyframes HighNav {
+  100% {
+    color: #B31B1B;
   }
-  @keyframes HighZoom {
-    100% {
-      color: #B31B1B;
-      transform: scale(1.5);
-    }
+}
+li.NavButton {
+  animation-name: LightUp;
+  animation-duration: 1s;
+  animation-fill-mode:forwards;
+}
+@keyframes LightUp {
+  100% {
+    color: #FFF;
   }
+}
 /* ===========================
 Text - Footer
 ============================ */
@@ -90,13 +99,34 @@ a {
   color: inherit;
 }
 a.google:hover {
-    color:#4885ED;
+  animation-name: HighGoogle;
+  animation-duration: 500ms;
+  animation-fill-mode:forwards;
+}
+@keyframes HighGoogle {
+  100% {
+    color: #4885ED;
+  }
 }
 a.orcid:hover {
-    color:#A6CE39;
+  animation-name: HighOrcid;
+  animation-duration: 500ms;
+  animation-fill-mode:forwards;
+}
+@keyframes HighOrcid {
+  100% {
+    color: #A6CE39;
+  }
 }
 a.resgate:hover {
-    color:#00CCBB;
+  animation-name: HighResG;
+  animation-duration: 500ms;
+  animation-fill-mode:forwards;
+}
+@keyframes HighResG {
+  100% {
+    color: #00CCBB;
+  }
 }
 a.cornell {
     color:#B31B1B;
@@ -134,7 +164,7 @@ a.cornell:hover {
 .Links {
   position: static;
   margin: auto;
-  margin-left: 3%;
+  margin-left: 4%;
 }
 .PermLinks {
   position: static;
