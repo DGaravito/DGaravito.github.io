@@ -64,16 +64,6 @@ li.NavButton:hover {
     color: #B31B1B;
   }
 }
-li.NavButton {
-  animation-name: LightUp;
-  animation-duration: 1.5s;
-  animation-fill-mode:forwards;
-}
-@keyframes LightUp {
-  100% {
-    color: #FFF;
-  }
-}
 /* ===========================
 Text - Footer
 ============================ */
@@ -135,10 +125,7 @@ a.cornell:hover {
     color:#FFF;
 }
 .MediaList {
-  margin: auto;
-  margin-top: 5%;
-  margin-left: 5%
-  margin-bottom: 5%;
+  margin: 5%, 5%, 5%, 5%;
   font-size: 1em;
 }
 .Media {
