@@ -1,3 +1,3 @@
 # DGaravito.github.io
-Repository for my personal GitHub page: [dgaravito.github.io/].
-Built using [http://jpswalsh.github.io/academicons/] (Academicons), [http://fontawesome.io/] (FontAwesome), and good ol' fashioned HTML and CSS.
+Repository for [my personal GitHub page] (dgaravito.github.io/).
+Built using [Academicons] (http://jpswalsh.github.io/academicons/), [FontAwesome] (http://fontawesome.io/), and good ol' fashioned HTML and CSS.
