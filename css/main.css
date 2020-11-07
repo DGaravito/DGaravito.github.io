@@ -84,6 +84,11 @@ Text - Footer
     -ms-transform: scale(-1, 1);
     transform: scale(-1, 1);
 }
+
+#footerCV {
+  white-space: pre;
+}
+
 /* ===========================
 Links, Pictures, and Media
 ============================ */
@@ -165,7 +170,7 @@ a.cornell:hover {
   margin-right: 3%;
 }
 /* ===================================
-Publications Page
+Tables
 ==================================== */
 .pub-content {
     background:transparent;
