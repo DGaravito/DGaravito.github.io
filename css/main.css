@@ -18,7 +18,7 @@ body {
 .NavButton {
   font-size: 1.5rem;
 }
-ol,ul {
+ol,ul,dl {
   font-size: 1rem;
 }
 li,p {
