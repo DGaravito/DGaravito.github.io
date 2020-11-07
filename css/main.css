@@ -137,6 +137,7 @@ a.cornell:hover {
 .MediaList {
   margin: 5%, 5%, 5%, 5%;
   font-size: 1em;
+  padding:0px 60px 0px 0px;
 }
 .Media {
   color: hsl(233, 72%, 37%);
