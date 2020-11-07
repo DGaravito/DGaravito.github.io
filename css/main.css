@@ -15,8 +15,11 @@ body {
   font-family: 'Montserrat', sans-serif;
   background: linear-gradient(35deg, #646E77, #9FACB8);
 }
-ul,ol,p {
+.NavButton {
   font-size: 1.5rem;
+}
+ol,ul {
+  font-size: 1rem;
 }
 li,p {
   line-height: 1.5;
@@ -184,5 +187,3 @@ Publications Page
 .table > tbody > tr > td {
     vertical-align: middle;
 }
-#publications {
-  font-size: 1rem;
