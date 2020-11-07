@@ -27,11 +27,12 @@ li,p {
 .Description {
   font-size: 1rem;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 4%;
   margin-bottom: 5%;
 }
 .Names {
-  margin-left: 5%;
+  margin-top: 1%;
+  margin-left: 10%;
 }
 /* ===========================
 Text - Header and Nav Bar
@@ -83,10 +84,6 @@ Text - Footer
     -o-transform: scale(-1, 1);
     -ms-transform: scale(-1, 1);
     transform: scale(-1, 1);
-}
-
-#footerCV {
-  white-space: pre;
 }
 
 /* ===========================
