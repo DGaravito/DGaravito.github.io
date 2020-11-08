@@ -36,11 +36,17 @@ li,p {
   margin-top: 3%;
   margin-bottom: 5%;
 }
-.DescriptionSet {
+.DescriptionSet1 {
   font-size: 1rem;
   margin: auto;
   margin-top: 7%;
   margin-bottom: 10%;
+}
+.DescriptionSet2 {
+  font-size: 1rem;
+  margin: auto;
+  margin-top: 7%;
+  margin-bottom: 5%;
 }
 .Names {
   margin-top: 3%;
@@ -141,7 +147,7 @@ a.cornell:hover {
     color:#FFF;
 }
 .MediaList {
-  margin: 5%, 5%, 5%, 5%;
+  margin: 3%, 5%, 5%, 5%;
   font-size: 1em;
 }
 .Media {
