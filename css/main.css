@@ -169,8 +169,8 @@ a.cornell:hover {
 .FlippedImage {
   position: static;
   margin: auto;
-  margin-left: 5%;
-  margin-right: 2%;
+  margin-left: 2%;
+  margin-right: 5%;
   width: 225px;
   height: 225px;
   border-color: black;
