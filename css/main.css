@@ -169,6 +169,7 @@ a.cornell:hover {
   border-style: solid;
   border-radius: 50%;
   float: left;
+  transition: box-shadow 0.6s linear;
 }
 .ProfileImage:hover {
   box-shadow: 0px 0px 0px 5px Black;
@@ -182,10 +183,10 @@ a.cornell:hover {
   border-style: double;
   border-width: 4px;
   border-radius: 10px;
-  box-shadow:20px 15px Black;
+  transition: box-shadow 0.6s linear;
 }
 .gridimage:hover {
-  box-shadow: 0px 0px 0px 5px Black;
+  box-shadow: 0px 0px 0px 5px rgba(47, 47, 47, 0.79);
 }
 .Links {
   position: static;
