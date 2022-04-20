@@ -36,14 +36,18 @@ li,p {
   margin-top: 7%;
   margin-bottom: 6%;
 }
-.DescriptionSet1 {
-  font-size: 1rem;
-  margin: auto;
-  margin-top: 7%;
-  margin-bottom: 15%;
-}
 .Names {
   margin-top: 3%;
+}
+.grid {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font: 500 100%/1.5 system-ui;
 }
 /* ===========================
 Text - Header and Nav Bar
@@ -167,18 +171,9 @@ a.cornell:hover {
   border-radius: 50%;
   float: left;
 }
-.FlippedImage {
-  position: static;
-  margin-left: 2%;
-  margin-right: 5%;
-  margin-bottom: 2%;
-  width: 225px;
-  height: 225px;
-  border-color: black;
-  border-width: 4px;
-  border-style: solid;
-  border-radius: 50%;
-  float: right;
+gridimage {
+  max-width: 100%;
+  height: auto;
 }
 .Links {
   position: static;
