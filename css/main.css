@@ -170,11 +170,22 @@ a.cornell:hover {
   border-radius: 50%;
   float: left;
 }
+.ProfileImage:hover {
+  border-width: 10px;
+}
 .gridimage {
   width: auto;
-  max-width: 230px;
+  max-width: 240px;
   height: auto;
-  max-height: 230px;
+  max-height: 240px;
+  border-color: black;
+  border-style: double;
+  border-width: 4px;
+  border-radius: 10px;
+  box-shadow:20px 15px Black;
+}
+.gridimage:hover {
+  border-width: 10px;
 }
 .Links {
   position: static;
