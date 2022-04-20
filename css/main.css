@@ -171,8 +171,10 @@ a.cornell:hover {
   float: left;
 }
 gridimage {
+  width: auto;
   max-width: 225px;
   height: auto;
+  max-height: 225px;
 }
 .Links {
   position: static;
@@ -207,4 +209,19 @@ Tables
 }
 .table > tbody > tr > td {
     vertical-align: middle;
+}
+/* ===================================
+Mobile
+==================================== */
+@media (max-width: 650px) {
+  .grid {
+    display: block;
+    font-size: 80%;
+  }
+  .gridimage {
+    position: relative;
+    margin: -3rem 0 2rem 1rem;
+    padding: 1rem;
+    background: rgba(white, 0.8);
+  }
 }
