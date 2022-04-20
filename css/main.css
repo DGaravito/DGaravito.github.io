@@ -188,16 +188,15 @@ a.cornell:hover {
 .gridimage:hover {
   box-shadow: 0px 0px 0px 5px rgba(47, 47, 47, 0.79);
 }
-.Links {
-  position: static;
-  margin: auto;
-  margin-left: 4%;
-}
 .PermLinks {
   position: static;
   margin: auto;
   margin-left: 3%;
   margin-right: 3%;
+}
+.resourcecontainer {
+  display: flex;
+  justify-content: space-between;
 }
 /* ===================================
 Tables
