@@ -41,9 +41,9 @@ li,p {
 }
 .grid {
   display: grid;
-  padding: 2rem;
+  padding: 32px;
   grid-template-columns: 300px 1fr;
-  gap: 1rem;
+  gap: 16px;
   align-items: center;
   max-width: 800px;
   margin: 0 auto;
@@ -170,11 +170,11 @@ a.cornell:hover {
   border-radius: 50%;
   float: left;
 }
-gridimage {
+.gridimage {
   width: auto;
-  max-width: 225px;
+  max-width: 230px;
   height: auto;
-  max-height: 225px;
+  max-height: 230px;
 }
 .Links {
   position: static;
