@@ -47,7 +47,6 @@ li,p {
   align-items: center;
   max-width: 800px;
   margin: 0 auto;
-  font: 500 100%/1.5 system-ui;
 }
 /* ===========================
 Text - Header and Nav Bar
@@ -172,7 +171,7 @@ a.cornell:hover {
   float: left;
 }
 gridimage {
-  max-width: 100%;
+  max-width: 225px;
   height: auto;
 }
 .Links {
