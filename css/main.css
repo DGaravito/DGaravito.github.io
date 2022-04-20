@@ -171,7 +171,7 @@ a.cornell:hover {
   float: left;
 }
 .ProfileImage:hover {
-  border-width: 10px;
+  box-shadow: 0px 0px 0px 5px Black;
 }
 .gridimage {
   width: auto;
@@ -185,7 +185,7 @@ a.cornell:hover {
   box-shadow:20px 15px Black;
 }
 .gridimage:hover {
-  border-width: 10px;
+  box-shadow: 0px 0px 0px 5px Black;
 }
 .Links {
   position: static;
