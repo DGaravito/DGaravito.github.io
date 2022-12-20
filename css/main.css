@@ -100,7 +100,6 @@ li.NavButton:hover {
 @keyframes HighNav {
     100% {
         color: #4B2E83;
-        background-color: #888888;
     }
 }
 
@@ -131,9 +130,8 @@ a {
     color: inherit;
 }
 
-.icons:hover svg {
-    animation: fa-beat-fade;
-    fa-animation-duration: 2s;
+.icons:hover {
+    transform: scale(1.10) rotate(20deg)
 }
 
 a.resgate:hover {
@@ -246,6 +244,10 @@ a.udub {
 
 a.udub:hover {
     color: #E8E3D3;
+}
+
+a.tm:hover {
+    color: #FFF;
 }
 
 .MediaList {
