@@ -79,7 +79,8 @@ li.NavButton:hover {
 }
 @keyframes HighNav {
   100% {
-    color: #B31B1B;
+    color: #E8E3D3;
+    background-color: #888888;
   }
 }
 /* ===========================
@@ -107,14 +108,18 @@ a {
   text-decoration: none;
   color: inherit;
 }
-a.google:hover {
-  animation-name: HighGoogle;
+.icons:hover svg {
+  animation: fa-beat-fade;
+  fa-animation-duration: 2s;
+}
+a.resgate:hover {
+  animation-name: HighResG;
   animation-duration: 500ms;
   animation-fill-mode:forwards;
 }
-@keyframes HighGoogle {
+@keyframes HighResG {
   100% {
-    color: #4885ED;
+    color: #00CCBB;
   }
 }
 a.orcid:hover {
@@ -127,14 +132,44 @@ a.orcid:hover {
     color: #A6CE39;
   }
 }
-a.resgate:hover {
-  animation-name: HighResG;
+a.google:hover {
+  animation-name: HighGoogle;
   animation-duration: 500ms;
   animation-fill-mode:forwards;
 }
-@keyframes HighResG {
+@keyframes HighGoogle {
   100% {
-    color: #00CCBB;
+    color: #4885ED;
+  }
+}
+a.mastodon:hover {
+  animation-name: HighMastodon;
+  animation-duration: 500ms;
+  animation-fill-mode:forwards;
+}
+@keyframes HighMastodon {
+  100% {
+    color: #6364ff;
+  }
+}
+a.github:hover {
+  animation-name: HighGitHub;
+  animation-duration: 500ms;
+  animation-fill-mode:forwards;
+}
+@keyframes HighGitHub {
+  100% {
+    color: #6cc644;
+  }
+}
+a.instagram:hover {
+  animation-name: HighInstagram;
+  animation-duration: 500ms;
+  animation-fill-mode:forwards;
+}
+@keyframes HighInstagram {
+  100% {
+    color: #c32aa3;
   }
 }
 a.cornell {
@@ -142,6 +177,12 @@ a.cornell {
 }
 a.cornell:hover {
     color:#FFF;
+}
+a.udub {
+    color:#4B2E83;
+}
+a.udub:hover {
+    color:#E8E3D3;
 }
 .MediaList {
   margin: 3%, 5%, 5%, 5%;
@@ -193,10 +234,6 @@ a.cornell:hover {
   margin: auto;
   margin-left: 3%;
   margin-right: 3%;
-}
-.resourcecontainer {
-  display: flex;
-  justify-content: space-between;
 }
 /* ===================================
 Tables
