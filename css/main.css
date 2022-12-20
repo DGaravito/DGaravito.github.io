@@ -91,6 +91,11 @@ nav li {
     margin-right: 20px;
 }
 
+nav li + li::before {
+    content: " | ";
+    padding: 0 10px;
+}
+
 li.NavButton:hover {
     animation-name: HighNav;
     animation-duration: 500ms;
@@ -108,6 +113,7 @@ Text - Footer
 ============================ */
 .text-center {
     text-align: center;
+    list-style-position: inside;
 }
 
 .copy-left {
@@ -130,8 +136,12 @@ a {
     color: inherit;
 }
 
+.icons {
+    transition: transform 500ms ease-in-out;
+}
+
 .icons:hover {
-    transform: scale(1.10) rotate(20deg)
+    transform: scale(1.15) rotate(15deg);
 }
 
 a.resgate:hover {
@@ -178,7 +188,7 @@ a.cv:hover {
 
 @keyframes HighCV {
     100% {
-        color: #4885ED;
+        color: #4B2E83;
     }
 }
 
@@ -236,6 +246,14 @@ a.cornell {
 
 a.cornell:hover {
     color: #FFF;
+}
+
+a.vcu {
+    color: #000;
+}
+
+a.vcu:hover {
+    color: #F8B300;
 }
 
 a.udub {
