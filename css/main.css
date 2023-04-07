@@ -203,8 +203,12 @@ a {
     transition: transform 500ms ease-in-out;
 }
 
-.icons:hover {
+.lefticons:hover {
     transform: scale(1.15) rotate(15deg);
+}
+
+.righticons:hover {
+    transform: scale(1.15) rotate(-15deg);
 }
 
 a.resgate:hover {
