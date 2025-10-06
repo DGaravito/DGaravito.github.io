@@ -117,7 +117,7 @@ nav {
     display: flex;
     align-items: center;
     height: 5rem;
-    color: var(--text-primary));
+    color: var(--text-primary);
     text-decoration: none;
     filter: grayscale(100%) opacity(0.5) blur(.25px);
     transition: var(--transition-speed);
@@ -209,39 +209,15 @@ a {
     transform: scale(1.15) rotate(-15deg);
 }
 
-a.resgate:hover {
-    animation-name: HighResG;
+a.linktree:hover {
+    animation-name: HighLT;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
 }
 
-@keyframes HighResG {
+@keyframes HighLT {
     100% {
-        color: #00CCBB;
-    }
-}
-
-a.orcid:hover {
-    animation-name: HighOrcid;
-    animation-duration: 500ms;
-    animation-fill-mode: forwards;
-}
-
-@keyframes HighOrcid {
-    100% {
-        color: #A6CE39;
-    }
-}
-
-a.google:hover {
-    animation-name: HighGoogle;
-    animation-duration: 500ms;
-    animation-fill-mode: forwards;
-}
-
-@keyframes HighGoogle {
-    100% {
-        color: #4885ED;
+        color: #42E661;
     }
 }
 
@@ -266,42 +242,6 @@ a.mail:hover {
 @keyframes HighMail {
     100% {
         color: #4B2E83;
-    }
-}
-
-a.mastodon:hover {
-    animation-name: HighMastodon;
-    animation-duration: 500ms;
-    animation-fill-mode: forwards;
-}
-
-@keyframes HighMastodon {
-    100% {
-        color: #6364ff;
-    }
-}
-
-a.github:hover {
-    animation-name: HighGitHub;
-    animation-duration: 500ms;
-    animation-fill-mode: forwards;
-}
-
-@keyframes HighGitHub {
-    100% {
-        color: #6cc644;
-    }
-}
-
-a.instagram:hover {
-    animation-name: HighInstagram;
-    animation-duration: 500ms;
-    animation-fill-mode: forwards;
-}
-
-@keyframes HighInstagram {
-    100% {
-        color: #c32aa3;
     }
 }
 
@@ -337,20 +277,41 @@ a.tm:hover {
 Pictures and Media
 ============================ */
 
-.MediaList {
-    margin: 3rem, 5rem, 5rem, 5rem;
+.container {
+      max-width: 900px;
+      margin: auto;
+      padding: 1rem;
 }
 
-.Media {
-    color: hsl(233, 72%, 37%);
+.quote-card {
+  background-color: #85754D;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #4B2E83;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
 }
 
-.Media:hover {
-    color: hsl(50, 72%, 49%);
+.quote-card:hover {
+    transform: translateY(-.25rem);
+    box-shadow: 0 .5rem .75rem rgba(0, 0, 0, 0.2);
 }
 
-.Media:active {
-    color: Black;
+.quote-card h3 {
+  margin: 0;
+  color: #003366;
+}
+
+.quote-card p {
+  margin: 0.5rem 0;
+}
+
+.quote-card a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.quote-card a:hover {
+  text-decoration: underline;
 }
 
 @property --gap {
@@ -372,11 +333,9 @@ Pictures and Media
     --color: var(--text-tertiary);
     box-sizing: border-box;
     border-radius: 50%;
-    margin: 20px;
     cursor: pointer;
     padding: calc(var(--border) + var(--gap));
 
-    --angle: 90deg;
     background:
         radial-gradient(farthest-side, var(--color) 97%, #0000 101%) 85.35% 85.35%,
         conic-gradient(from calc(180deg - var(--angle)/2), #0000 var(--angle), var(--color) 0),
@@ -394,6 +353,7 @@ Pictures and Media
             #000 calc(99% - calc(var(--border) + var(--gap))),
             #0000 calc(100% - calc(var(--border) + var(--gap))) calc(99% - var(--border)),
             #000 calc(100% - var(--border)));
+    
     transition: --angle .5s ease, --gap .5s ease;
     position: static;
     margin: 1rem;
